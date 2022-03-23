@@ -1,14 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 header {
-    position: absolute;
     width: 1440px;
     height: 125px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 250px;
-    padding-right: 250px;
+    margin: auto;
 }
 
 
@@ -31,17 +29,23 @@ li, a {
 body {
     gap: 10px;
     row-gap: 50px; 
-    margin: 0px 350px;
     height: 100%;
 }
 .photocv1
 {
+    margin: auto;
     display: flex;
     width: 1203px;
     margin-top: 15px;
 }
+section
+{
+    width: 1208px;
+    margin: auto;
+}
 .contextproject h1
 {
+    margin: auto;
     display: flex;
     font-family: 'Abril', sans-serif;
     font-size: 30px;
@@ -49,29 +53,19 @@ body {
 }
 .contextproject p
 {
+    margin: auto;
     display: flex;
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
     margin-top: 15px;
+    font-size: 20px;
 }
-.profil1
+.profil
 {
+    font-size: 20px;
+    margin: auto;
     display: flex;
-    flex-direction: row;
-    font-family: 'Montserrat', sans-serif;
-    margin-top: 15px;
-}
-.profil2
-{
-    display: flex;
-    flex-direction: row;
-    font-family: 'Montserrat', sans-serif;
-    margin-top: 15px;
-}
-.profil3
-{
-    display: flex;
-    flex-direction: row;
+    flex-direction: column;
     font-family: 'Montserrat', sans-serif;
     margin-top: 15px;
 }
@@ -106,4 +100,5 @@ p {
 .cv 
 {
     margin-top: 25px;
+    display: flex;
 }
