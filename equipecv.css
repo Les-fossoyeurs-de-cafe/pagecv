@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+header {
+    position: absolute;
+    width: 1440px;
+    height: 125px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+
+.navbar {  /*Pour retirer le petit point de la liste nav*/
+    list-style: none;
+    display: flex;
+}
+
+.navbar li { /*Pour aligner la liste nav*/
+    display: inline-block;
+    padding: 0px 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+li, a {
+    font-weight: 400;
+    font-size: 16px;
+    color: #A9A5A0;
+    text-decoration: none;      
+}
+body {
+    gap: 10px;
+    row-gap: 50px; 
+    margin: 0px 350px;
+    height: 100%;
+}
+.photocv1
+{
+    display: flex;
+    width: 1203px;
+    margin-top: 15px;
+}
+.contextproject h1
+{
+    display: flex;
+    font-family: 'Abril', sans-serif;
+    font-size: 30px;
+    margin-top: 15px;
+}
+.contextproject p
+{
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 15px;
+}
+.profil1
+{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 15px;
+}
+.profil2
+{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 15px;
+}
+.profil3
+{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 15px;
+}
+
+h1 {
+    margin: auto;
+    color: #E74862;
+}
+
+h2 {
+    margin: auto;
+    color: #00ADDE;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+div {
+    margin: auto;
+    color: #424242;
+}
+
+p {
+    margin: 5px;
+}
+
+.photocv
+{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+.cv 
+{
+    margin-top: 25px;
+}
